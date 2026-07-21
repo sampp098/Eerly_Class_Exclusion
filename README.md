@@ -7,8 +7,8 @@ Official repository for the paper **"Early Class Exclusion in Hyperdimensional C
 ## 🌍 Language Options / Langues
 
 For detailed documentation and getting started guides in other languages, please refer to:
-* 🇬🇧 [**English Documentation (readme.en.md)**](readme.en.md)
-* 🇫🇷 [**Documentation en Français (readme.fr.md)**](readme.fr.md)
+* 🇬🇧 [**English Documentation (README-en.md)**](README-en.md)
+* 🇫🇷 [**Documentation en Français (README-fr.md)**](README-fr.md)
 
 ---
 
