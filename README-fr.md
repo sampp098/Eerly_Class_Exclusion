@@ -30,34 +30,3 @@ Contient les programmes VHDL élaborés dans le cadre du projet.
 • "Baseline B" : programmes VHDL correspondant à la baseline B décrit par l'article. "PU.vhd" est le top level
 
 • "Proposed" : programmes VHDL correspondant à la stratégie proposée décrite par l'article. "PU.vhd" est le top level
-
-### Article
-Contient les fichiers qui ont servi à élaborer l'article "Early Class Exclusion in Hyperdimensional Computing" pour la conférence DATE 2026.
-
-• "Early Class Exclusion in Hyperdimensional Computing.pdf/.docx" : article scientifique
-
-• "Figures article.pptx" : figures crées pour l'article
-
-• "Feuilles de résultats.xlsx" : données utilisées pour l'article
-    - Speedup obtenu à partir de l'équation (1) de l'article. Formule déduite des simulations VHDL
-    - Accuracy obtenu à partir des simulations Matlab
-    - Energy consumption obtenu à partir des simulations Synopsys Design Compiler. 
-        - Nomenclature des tableaux :
-            - dataset : ISOLET, MNIST, UCIHAR
-            - k : nombre de classe (ISOLET=26, MNIST=10, UCIHAR=6)
-            - D : dimension des hypervecteurs
-            - d : dimension des segments
-            - l : dimension des tranches
-            - ACC : nombre d'accumulation par itération = d/l
-        - Nomenclature des variables :
-            - E, A : Energy, Area
-            - PE, find, FSMD, test : Processing Element, findMax/findMin (équivalent), FSMD, Wald's test & Holm-Bonferri Method
-            - d, s : consommation dynamique, consommation statique
-            - cumul : somme des consommations statiques ou dynamiques jusqu'à l'itération
-            - ∅, tot : unitaire, total
-            - exemple1 : E_PE_d_tot = consommation énergétique dynamique de l'ensemble des Processing Element
-            - exemple2 : E_s_tot = consommation totale statique des composants par itération
-            - exemple3 : E_FSMD_d = consommation dynamique unitaire du FSMD
-            - exemple4 : A_find = surface occupée par le composant findMax/findMin (équivalent)
-
-• "Rapport SFE (simplifié).pdf" : rapport de stage de fin d'études rédigé à l'issue du projet, dans le cadre de mes études. Ce rapport peut éventuellement aider à la compréhension globale du projet, en tenant en compte que certaines données sont obsolètes (notamment celles de simulations énergétiques Synopsys, qui utilisaient des données à f=100MHz, tandis que l'article pour DATE comprend des données à f=500MHz). Il s'agit d'une version simplifiée de mon véritable rapport de SFE dont j'ai supprimé certaines parties jugées inutiles pour comprendre le projet.

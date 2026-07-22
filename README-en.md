@@ -30,34 +30,3 @@ Contains the VHDL programs developed as part of the project.
 • "Baseline B": VHDL programs corresponding to baseline B described in the article. "PU.vhd" is the top level.
 
 • "Proposed": VHDL programs corresponding to the proposed strategy described in the article. "PU.vhd" is the top level
-
-### Article
-Contains the files used to develop the article "Early Class Exclusion in Hyperdimensional Computing" for the DATE 2026 conference.
-
-• "Early Class Exclusion in Hyperdimensional Computing.pdf/.docx": the scientific article
-
-• "Figures article.pptx": figures created for the article
-
-• "Feuilles de résultats.xlsx": data used for the article
-    - Speedup obtained from equation (1) in the article. Formula derived from VHDL simulations
-    - Accuracy obtained from Matlab simulations
-    - Energy consumption obtained from Synopsys Design Compiler simulations
-        - Tables nomenclature:
-            - Dataset: ISOLET, MNIST, UCIHAR
-            - k: Number of classes (ISOLET=26, MNIST=10, UCIHAR=6)
-            - D: Hypervector dimension
-            - d: Segment dimension
-            - l: Slice dimension
-            - ACC: Number of accumulations per iteration = d/l
-        - Variables nomenclature:
-            - E, A: Energy, Area
-            - PE, find, FSMD, test: Processing Element, findMax/findMin (equivalent), FSMD, Wald's test & Holm-Bonferri Method
-            - d, s: Dynamic consumption, Static consumption
-            - Cumulative: Sum of static or dynamic consumption up to the iteration
-            - ∅, tot: Unit, Total
-            - example1: E_PE_d_tot = dynamic energy consumption of all Processing Elements
-            - example2: E_s_tot = total static consumption of components per iteration
-            - example3: E_FSMD_d = unit dynamic consumption of the FSMD
-            - example4: A_find = area occupied by the findMax/findMin component (equivalent)
-
-• "Rapport SFE (simplifié).pdf": final internship report written at the end of the project, as part of my studies. This report may help with the overall understanding of the project, taking into account that some data is outdated (notably the Synopsys energy simulations, which used data at f=100 MHz, while the article for DATE includes data at f=500 MHz). This is a simplified version of my actual SFE report, from which I removed certain parts deemed unnecessary for understanding the project.
